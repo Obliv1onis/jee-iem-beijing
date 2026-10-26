@@ -10,11 +10,4 @@
 #comments .particle{mix-blend-mode:normal}
 #comments .plus-button{position:relative;z-index:1}
 
-.event-lockup{display:block;margin:0 0 22px;color:inherit;text-decoration:none}
-.event-lockup:hover{text-decoration:none}
-.event-lockup-row{align-items:center;display:flex;gap:13px}
-.event-lockup-logo{align-items:center;background:#20252b;border-radius:50%;display:inline-flex;flex:0 0 40px;height:40px;justify-content:center;width:40px}
-.event-lockup-logo img{display:block;height:24px;object-fit:contain;width:24px}
-.event-lockup-name{color:var(--a-color);font-size:24px;line-height:1.25}
 
-@media(max-width:600px){.event-lockup-name{font-size:20px}.event-lockup{margin-bottom:18px}}
