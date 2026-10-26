@@ -1,0 +1,11 @@
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:url("../fonts/open-sans-regular.woff2")}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:url("../fonts/open-sans-bold.woff2")}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:url("../fonts/open-sans-italic.woff2")}@font-face{font-family:Oswald;font-style:normal;font-weight:700;src:url("../fonts/oswald-bold.woff2")}@font-face{font-family:FontAwesome;src:url("../fonts/fontawesome.woff2")} :root{--top-logo-image:url("../images/hltv-logo.webp")}body{background:#000 url("../images/page-background.png") no-repeat center 40px}.archived-vote,.archived-reply{cursor:default!important;pointer-events:none}.fiction-note{font-size:11px;line-height:18px;color:#858585;margin:24px 0 0;padding-top:14px;border-top:1px solid #eee}.newsdsl .image-con img{width:100%;height:auto}.navbar .dropdown-menu{display:none}.nav-item:hover>.dropdown-menu{display:block}.bgPadding{min-height:100vh}.hltv-logo-container{background-image:url("../images/hltv-logo.webp")!important}
+
+/* The archived thread retains the original HLTV card spacing and vote animation. */
+#comments .replyNum,#comments .authorAnchor{color:var(--a-color)}
+#comments .post{content-visibility:visible;contain-intrinsic-size:none}
+#comments .fire{pointer-events:none}
+#comments .report-button{cursor:default}
+@media(prefers-reduced-motion:reduce){#comments .particle{animation:none}#comments .fire:before{content:"🔥";font-size:32px;position:absolute;bottom:0;left:35%}}
+/* Keep the original orange particles visible against the light comment card. */
+#comments .particle{mix-blend-mode:normal}
+#comments .plus-button{position:relative;z-index:1}
