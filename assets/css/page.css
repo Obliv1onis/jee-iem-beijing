@@ -16,5 +16,5 @@
 .event-lockup-logo{align-items:center;background:#20252b;border-radius:50%;display:inline-flex;flex:0 0 40px;height:40px;justify-content:center;width:40px}
 .event-lockup-logo img{display:block;height:24px;object-fit:contain;width:24px}
 .event-lockup-name{color:var(--a-color);font-size:24px;line-height:1.25}
-.event-lockup-title{color:var(--a-color);display:block;font:700 72px/1 Oswald,Impact,sans-serif;margin-top:12px;text-transform:uppercase}
-@media(max-width:600px){.event-lockup-title{font-size:clamp(48px,12vw,72px)}.event-lockup-name{font-size:20px}.event-lockup{margin-bottom:18px}}
+
+@media(max-width:600px){.event-lockup-name{font-size:20px}.event-lockup{margin-bottom:18px}}
